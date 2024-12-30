@@ -1,0 +1,65 @@
+/* reset css */
+@import url(reset.css);
+
+/* google font - montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+/* root variables */
+:root {
+  /* var of font */
+  --fontMain: "Montserrat", serif;
+
+  /* colors */
+  --colorWhite: #fff;
+  --colorBlack: #00030c;
+  --colorLigthGray: #ccc;
+  --colorDarkGray: #666;
+}
+
+
+/* global */
+body {
+  background-color: var(--colorDarkGray);
+}
+
+/* global title */
+h1{
+  font-family: var(--fontMain);
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 0px 0px 10px var(--colorWhite);
+}
+
+/* box global */
+.box {
+  height: 100vh;
+
+  /* global bg */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* css for ids */
+#amazonia{
+  background-image: url(img/amazonica.jpg);
+}
+
+#caatinga {
+  background-image: url(img/caatinga.jpg);
+}
+
+#cerrado {
+  background-image: url(img/cerrado.jpg);
+}
+
+#pampa {
+  background-image: url(img/pampa.jpg);
+}
+
+#atlantica {
+  background-image: url(img/atlantica.jpg);
+}
+
+#pantanal {
+  background-image: url(img/pantanal.jpg);
+}
