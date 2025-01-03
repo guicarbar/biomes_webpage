@@ -14,29 +14,53 @@
   --colorBlack: #00030c;
   --colorLigthGray: #ccc;
   --colorDarkGray: #666;
+  --colorGlass: #ffffff60;
 }
 
 
 /* global */
 body {
   background-color: var(--colorDarkGray);
+  overflow: hidden;
 }
 
-/* global title */
+/* global text */
 h1{
   font-family: var(--fontMain);
   font-size: 32px;
   font-weight: 700;
-  text-shadow: 0px 0px 10px var(--colorWhite);
+}
+
+p {
+  margin-top: 1em;
+  font-family: var(--fontMain);
+  font-size: 20px;
+  text-indent: 1em;
+  line-height: 1.2em;
+  font-weight: 500;
 }
 
 /* box global */
 .box {
   height: 100vh;
+  padding-left: 3em;
+
+  /* display */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
 
   /* global bg */
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.box > div {
+  max-width: 30%;
+  padding: 3em;
+  background-color: var(--colorGlass);
+  border-radius: 32px;
 }
 
 /* css for ids */
