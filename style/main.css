@@ -52,7 +52,7 @@ p {
   justify-content: flex-start;
 
   /* global bg */
-  background-size: cover;
+  background-size: 110% 110%;
   background-repeat: no-repeat;
 }
 

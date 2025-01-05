@@ -22,7 +22,6 @@ function reloadLet() {
   if (indexPage > 5) {
     indexPage = 5
   }
-  console.log(indexPage)
 }
 
 // evente of wheel
