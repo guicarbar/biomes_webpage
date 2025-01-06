@@ -18,4 +18,4 @@ Este projeto tem como foco principal o uso de JavaScript para criar interações
 
 ---
 
-> ⚠️ **Observação**: Projetos com o sufixo *`_Website`* são aplicativos desenvolvidos especificamente para a web. 🌐  
+> ⚠️ **Observação**: Projetos com o sufixo *`-Website`* são aplicativos desenvolvidos especificamente para a web. 🌐  
